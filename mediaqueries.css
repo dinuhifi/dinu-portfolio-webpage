@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   #profile {
     height: 83vh;
     margin-bottom: 0rem;
@@ -7,8 +7,7 @@
     flex-wrap: wrap;
   }
 }
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
@@ -20,7 +19,7 @@
     margin-top: 2rem;
   }
   #profile, .section-container {
-    display: block;
+    display:contents;
   }
   .arrow {
     display: none;
@@ -41,15 +40,16 @@
     display: none;
   }
   .about-containers {
-    margin-top: 0;
+    margin-top: 2rem;
   }
+
   .about-details-container {
     padding-left: 0;
   }
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   #contact, footer {
     height : 40vh;
   }
